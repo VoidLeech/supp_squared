@@ -160,7 +160,7 @@ public class SuppSquared {
             if (wood == WoodTypeRegistry.OAK_TYPE) continue;
             Block block = entry.getValue();
             Item item = new WoodBasedBlockItem(
-                    block, new Item.Properties().stacksTo(16), wood, 200
+                    block, new Item.Properties(), wood, 200
             );
             event.register(Utils.getID(block), item);
         }

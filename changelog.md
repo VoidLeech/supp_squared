@@ -1,1 +1,1 @@
-fixed plaquest not working
+item shelves stack to 64
